@@ -121,7 +121,7 @@
     },
     {
       "title": "Turing Machine Simulator",
-      "description": "Written in ruby, this program allows the user to create and run Turing machine programs from the terminal. This little program can solve any problem! \n\nThis was developed as an experiment for what could be done in a terminal. \n\n[Github](http://www.github.com/dshiller/turingmachine)",
+      "description": "Written in ruby, this program allows the user to create and run Turing machine programs from the terminal. This little program can solve any computable problem! \n\nThis was developed as an experiment for what I could do in a terminal. \n\n[Github](http://www.github.com/dshiller/turingmachine)",
       "image": "/static/assets/images/TuringMachineSimulator.png",
       "tags": [
         "games/sims",
