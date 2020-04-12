@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Piper</title>
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/main.css" media="screen" title="no title" charset="utf-8">
+    <script src="./lib/bundle.js"> </script>
+  </head>
+  <body>
+    <h1 id="gameTitle"> Piper
+      <span id="menuIndicator"> (menu) </span>
+    </h1>
+    <div id="canvasFrame">
+      <h3 id="countdown"> </h3>
+      <canvas id="boardCanvas" width="800px" height="400px"> </canvas>
+      <h2> Score: <span id="score">-</span> </h2>
+    </div>
+
+    <nav id="menu" class="modalPanel">
+      <h2 class="clickable"> Menu </h2>
+      <hr/>
+      <ul>
+        <li class="newGame">New Game</li>
+        <li id="gameMode">
+          <span id="arcadeMode" class="selected">Arcade Mode</span> <br/>
+          <span id="puzzleMode">Puzzle Mode</span> <br/>
+          <span id="challengeMode">Challenge Mode</span>
+        </li>
+        <li id="instructions">Instructions</li>
+        <li id="highScores">High Scores</li>
+      </ul>
+
+    </nav>
+
+    <div id="instructionsPanel" class="modalPanel hidden">
+      <h2> Guide to Play </h2>
+      <hr/>
+        <p> Piper is a puzzle game inspired by Pipe Dream.
+          The goal of the game is to connect the lefthand entry pipe to the righthand exit pipe by rotating and moving
+          the intermediary pipes.</p>
+          <img src="assets/goals.png" class="right" alt="entryAndExitPipes" />
+
+          <p>  There is a time limit. After a set amount of time (depending upon the game mode) green sludge will begin to be pumped through the entry pipe.
+          If at any point there is no pipe in front of it, you lose! </p>
+
+          <p>
+          Any pipe may be rotated by clicking on it and dragging the mouse. Clicking and dragging right or down will swing the pipe clockwise.
+          Left or up will swing it counter-clockwise. </p>
+          <img src="assets/mousemove.png" class="fullWidth" alt="mouseDemonstration" />
+          <p>
+          Alternatively, any piece may be rotated clockwise 90 degrees with a single left or right. </p>
+
+          <p>
+          Additionally, any pipe adjacent to the empty space may be swapped for the empty space with a left click.
+          This takes precedence over rotations on the left click. Rotations next to the empty space require clicking and dragging.
+          </p>
+          <img src="assets/emptyclick.png" class="fullWidth" alt="" />
+          <p>
+          Note well, proper use of the empty space is integral to getting a high score in this game.
+          You cannot cross over any pipe that has already been filled with sludge. If your empty space gets stuck somewhere, your game may become impossible to win.
+
+          <p>  <img src="assets/barriers.png"  class="right" alt="" ;/> When in puzzle mode, the sludge will move slower, so you will have more time to plan your moves. However, you will also have to contend with barriers.
+             Barriers cannot be moved, and if the sludge ever meets a barrier, you will lose.</p>
+
+             <p> When in challenge mode, the slude will move slightly slower, but you will have two entry and exit pipes to connect. If you two streams meet each other, you will lose.
+        </p>
+    </div>
+
+    <div id="highScoresPanel" class="modalPanel hidden">
+      <h2> High Scores </h2>
+      <hr/>
+      High scores have been disabled.
+
+<li>135 COB</li>
+<li>127 COB</li>
+<li>127 COB</li>
+<li>125 COB</li>
+<li>125 COB</li>    
+<li>113 PS</li>
+<li>107 LU!</li>
+<li>107 PS!</li>
+<li>105 PS</li>
+<li>101 PS</li>
+    </div>
+
+    <div id="winPanel" class="modalPanel winloss hidden">
+        <h2>You won!</h2>
+        <br/><br/>
+        <p>
+          Nice Job.
+        </p>
+        <p>
+          Your score was: <span id="scoreReport"> </span> <br/>
+           <br/>
+          <span class = "newGame clickable"> Play Again </span>
+        </p>
+    </div>
+
+    <div id="lossPanel" class="modalPanel winloss hidden">
+        <h2>You Lost!</h2>
+        <hr/>
+        <br/>
+        <p>
+          You were <span id="distanceReport"> </span> spaces away from the end. <br/> <br/>
+        </p>
+        <p>
+        <span class="newGame clickable"> Try Again </span>
+        </p>
+    </div>
+
+    <div id="newHighScorePanel" class="modalPanel hidden">
+      <h2> You got a high score! </h2>
+      <hr/>
+      <form>
+        <label> Your Initials:
+          <input id="initials" type="text" name="initials" maxlength="3" value="" placeholder = "XYZ">
+          </input>
+        </label>
+        <br/>
+        <input id="initialsSubmit" type="submit"></input>
+      </form>
+
+    </div>
+
+
+<footer>
+  <span>
+    <a href= "http://www.derekshiller.com"> Derek Shiller </a>
+    <a href="http://www.github.com/dcshiller/piper"> <img src="assets/github.png" alt="" /></a>
+    <a href="http://www.linkedin.com/in/derek-shiller-3a254b121"><img src="assets/linkedin.png" alt="LinkedIn" /></a>
+  </span>
+</footer>
+  </body>
+</html>
