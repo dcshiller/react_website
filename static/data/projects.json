@@ -2,6 +2,11 @@
   "title": "Projects",
   "projects": [
     {
+      "title": "Chance and the dissipation of our acts effects",
+      "description": "If the future is highly sensitive to the past, then many of our acts have long-term consequences whose significance well exceeds that of their foreseeable short-term consequences. This paper argues, however, that given the assumption that chancy events are ubiquitous, the effects that our acts have are likely to dissipate over a short span of time. The sets of possible futures left open by alternative acts are typically very similar in the same way that large random samples drawn from the same population are typically very similar.",
+      "file": "/assets/manuscript-final.docx"
+    },
+    {
       "title": "Race to A.I.",
       "description": "A game about A. I. safety. You play as a start up trying to be the first to build a strong A. I. system. This game was written as an experiment in functional programming (elm) for the [Philosophy Game Jam #2](https://itch.io/jam/philgamejam-2). \n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
       "image": "/assets/racetoai.png",
