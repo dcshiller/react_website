@@ -45,3 +45,5 @@ collections:
               - label: File
                 name: file
                 widget: file
+              - label: isHidden
+                widget: boolean

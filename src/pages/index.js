@@ -54,7 +54,7 @@ class IndexPage extends React.Component {
       `;
     }
     renderProjects() {
-      return ProjectStore.filter(this.state.selectedFields).map(project => (
+      return ProjectStore.filter(this.state.selectedFields).filter(p => !p.isHidden).map(project => (
         pug`
           ProjectCard(
             image=${project.image},
@@ -72,7 +72,7 @@ class IndexPage extends React.Component {
       if (!fields.includes(field)) { fields.push(field) }
       else { fields.splice(fields.indexOf(field), 1);}
       this.setState({ selectedFields: fields })
-      ga && ga('send', 'event', 'Project Category', 'select', field);
+      typeof ga !== 'undefined' && ga('send', 'event', 'Project Category', 'select', field);
     }
 }
 

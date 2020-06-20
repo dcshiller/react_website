@@ -5,6 +5,7 @@
       "title": "Piper",
       "description": "Piper Desc,",
       "image": "/static/assets/images/Piper.png",
+      "isHidden": false,
       "tags": ["programming", "games and sims"]
     },
     {
