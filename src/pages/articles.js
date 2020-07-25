@@ -14,20 +14,8 @@ class IndexPage extends React.Component {
     return pug`
       div
         Section
-          h2 About me
-          p
-            | Professionally, I'm a web developer for 
-            a(href="https://thehumaneleague.org") The Humane League
-            | , an international farm animal welfare organization that campaigns for better treatment of the most intensively-farmed animals. 
-            | In my previous life, I was an academic philosopher who specialized in metaethics and consciousness. 
-          p
-            | In my free time, I still like to think and write about moral issues and other more speculative or esoteric topics. 
-            | I also like to make simple games. 
-            | On this website, you can find a selection of my academic papers and coding projects.
-            | I live in New York City with my wife, Megan, our dog and our rats.
-
-          br
-          br
+          h2 Academic articles
+          ${this.renderPapers()}
     `}
 
         // Section

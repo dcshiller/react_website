@@ -7,11 +7,16 @@ $header-height: 10em
 $footer-height: 4em
 
 $tablet: 700px
-$desktop: 1000px
+$laptop: 900px
+$desktop: 1100px
+$monitor: 1500px
 
 a
   color: inherit
   cursor: pointer
+  text-decoration: none
+  p &
+    text-decoration: underline
 
 =dark
   color: $primary-color
@@ -59,17 +64,22 @@ nav
     left: 180px;
 
 .section
-  padding-left: 0
+  padding-left: 40px
   padding-right: 0
   padding-top: $large-padding
   padding-bottom: $large-padding
   width: 100%
-  @media (min-width: $tablet)
+  min-height: 100%
+  display: flex
+  @media (min-width: $laptop)
     padding: $large-padding
+    padding-left: 100px
+  @media (min-width: $monitor)
+    padding-left: 200px
 
 .section-content
   width: 80%
-  margin: auto
+  max-width: 800px
 
 .content
   min-height: calc(100vh);
@@ -105,6 +115,64 @@ h1
 
   &__title
     text-align: center
+
+  .download
+    transition: transform .5s
+    &:hover
+      transform: scale(1.2)
+
+.paper-card
+  padding: $large-padding
+  display: flex
+  flex-direction: column
+  margin-left: 300px
+  margin: 20px 0
+  max-width: calc(100vw - $header-height);
+
+  @media (min-width: $tablet)
+    flex-direction: row
+  @media (max-width: $desktop)
+    padding-left: 0
+    padding-right: 0
+
+  &__icon
+    display: flex
+    flex-direction: column
+    justify-content: center
+    margin-right: 20px
+    min-width: 100px
+    @media (max-width: $tablet)
+      order: 2
+      flex-direction: row
+      justify-content: space-around
+
+  &__content
+    flex-grow: 1
+    max-width: 800px
+
+  &__image
+    height: 100px
+    width: 100px
+    float: right
+    transition: transform .3s
+    @media (max-width: $tablet)
+      height: 70px
+      width: 70px
+    @media (min-width: 1100px)
+      margin-bottom: 0
+    &:hover
+      transform: scale(1.1)
+
+  &__info
+    padding: 0
+    font-size: .9em
+    line-height: 1.3em
+
+  &__title
+    text-align: left
+    margin-bottom: .5em
+    font-size: 1em
+    font-weight: 400
 
   .download
     transition: transform .5s
@@ -159,12 +227,13 @@ h1
 .icon-row
   margin: auto
   display: flex
-  justify-content: space-around
-  width: 250px
+  justify-content: center
+  // width: 250px
   font-size: 1.5em
 
 .icon-row > *
   transition: transform .3s
+  margin: 10px
   &:hover
     transform: scale(1.2)
 

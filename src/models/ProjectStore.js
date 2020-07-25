@@ -20,5 +20,8 @@ ProjectStore.prototype.filter = function(tags) {
     filter(proj => tags.every(tag => proj.tags.indexOf(tag) !== -1))
 }
 
+ProjectStore.prototype.papers = function() {
+  return this.all.filter(proj => proj.tags.indexOf('papers') !== -1)
+}
 const instance  = new ProjectStore;
 export default instance;

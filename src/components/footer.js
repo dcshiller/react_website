@@ -9,21 +9,21 @@ class Footer extends React.Component {
     return pug`
       .footer
         .icon-row
-          a(href="https://github.com/dcshiller")
-            FontAwesomeIcon(icon=${faGithub})
-          a(href="https://www.linkedin.com/in/derek-shiller-3a254b121")
-            FontAwesomeIcon(icon=${faLinkedin})
           a(href="mailto:dcshiller@gmail.com")
             FontAwesomeIcon(icon=${faEnvelope})
           a(href=${files.cv})
             .icon-holder
               FontAwesomeIcon.CV(icon=${faFile})
               .cv CV
-          a(href=${files.resume})
-            .icon-holder
-              FontAwesomeIcon(icon=${faFile})
-              .resume R
     `
+// a(href="https://github.com/dcshiller")
+// FontAwesomeIcon(icon=${faGithub})
+// a(href="https://www.linkedin.com/in/derek-shiller-3a254b121")
+// FontAwesomeIcon(icon=${faLinkedin})
+// a(href=${files.resume})
+// .icon-holder
+// FontAwesomeIcon(icon=${faFile})
+// .resume R
   }
 }
 

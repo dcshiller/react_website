@@ -4,12 +4,10 @@ import Link from 'gatsby-link'
 const Header = () => (
   pug`
   nav
-    div
-      h1 Derek Shiller
-      h5
-        | Web Developer / 
-        span.no-break Dilettante Philosopher
-    img.avatar(src="/static/assets/images/avatar.jpg")
+    Link(to='/')
+      div
+        h1 Derek Shiller
+      img.avatar(src="/static/assets/images/avatar.jpg")
   `
 )
 
