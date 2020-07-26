@@ -7,11 +7,7 @@ const ProjectCard = ({image, file, title, description}) => {
   const notifyGa = () => {ga && ga('send', 'event', 'File Download', 'click', title)};
   return pug`
     .project-card.animated
-      h2.project-card__title= title
-        if file && file !== ""
-          span &nbsp
-          a(href=${file} onClick=${notifyGa})
-            FontAwesomeIcon.download(icon=${faFile})
+      h3.project-card__title= title
       .project-card__info
         if image && image !== ""
           img.project-card__image(src=${image})

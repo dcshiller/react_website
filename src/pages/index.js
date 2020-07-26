@@ -4,6 +4,7 @@ import ProjectCard from '../components/projectCard'
 import PaperCard from '../components/paperCard'
 import ProjectStore from '../models/ProjectStore'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group' // ES6
+import Link from 'gatsby-link'
 
 class IndexPage extends React.Component {
   constructor() {
@@ -23,7 +24,11 @@ class IndexPage extends React.Component {
           p
             | In my free time, I still like to think and write about moral issues and other more speculative or esoteric topics. 
             | I also like to make simple games. 
-            | On this website, you can find a selection of my academic papers and coding projects.
+            | On this website, you can find a selection of my 
+            Link(to='/articles') academic papers
+            |  and 
+            Link(to='/code') coding projects
+            | .
             | I live in New York City with my wife, Megan, our dog and our rats.
 
           br

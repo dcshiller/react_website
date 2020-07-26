@@ -3,17 +3,18 @@
   "projects": [
     {
       "title": "Chance and the dissipation of our acts effects",
-      "description": "If the future is highly sensitive to the past, then many of our acts have long-term consequences whose significance well exceeds that of their foreseeable short-term consequences. This paper argues, however, that given the assumption that chancy events are ubiquitous, the effects that our acts have are likely to dissipate over a short span of time. The sets of possible futures left open by alternative acts are typically very similar in the same way that large random samples drawn from the same population are typically very similar.",
+      "subtitle": "Forthcoming in the Australasian Journal of Philosophy",
+      "description": "This paper discusses the sensitivity of the shape of history to routine actions. It argues that given the possibility of non-deterministic effects, most actions do not have the power to radically alter the shape of the future.",
       "tags": [
         "philosophy",
         "papers"
       ],
-      "isHidden": false,
-      "file": "/assets/manuscript-final.docx"
+      "isHidden": false
     },
     {
       "title": "Race to A.I.",
-      "description": "A game about A. I. safety. You play as a start up trying to be the first to build a strong A. I. system. This game was written as an experiment in functional programming (elm) for the [Philosophy Game Jam #2](https://itch.io/jam/philgamejam-2). \n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
+      "description": "A game about A. I. safety. You play as a start up trying to be the first to build a strong A. I. system.\n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
+      "notes": "This game was written as an experiment in functional programming (elm) for the [Philosophy Game Jam #2](https://itch.io/jam/philgamejam-2).",
       "image": "/assets/racetoai.png",
       "isHidden": false,
       "tags": [
@@ -35,7 +36,8 @@
     },
     {
       "title": "Happy Mice",
-      "description": "A game about trying to make mice happy. The game was written in React and created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam). \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
+      "description": "A game about trying to make mice happy. \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
+      "notes": "The game was written in React and created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam).",
       "image": "/assets/happy_mice.png",
       "isHidden": false,
       "tags": [
@@ -47,7 +49,8 @@
     },
     {
       "title": "Interactionism for the discerning mind?",
-      "description": "Forthcoming in [Philosophical Studies](https://link.springer.com/article/10.1007/s11098-018-1213-5)\n\nI argue that interactionists have trouble making sense of how minds could influence the right neurons in a brain to produce the range of behaviors of which we are capable.",
+      "subtitle": "[Philosophical Studies 2020](https://link.springer.com/article/10.1007/s11098-018-1213-5)",
+      "description": "This paper argues that interactionists face difficulties making sense of how minds could influence the right neurons in a brain to produce the range of behaviors of which we are capable.",
       "isHidden": false,
       "tags": [
         "philosophy",
@@ -85,8 +88,9 @@
       ]
     },
     {
-      "title": "The Unity of Moral Attitudes",
-      "description": "Final version: Canadian Philosophy Review 2018\n\nThis paper offers my solution to the problem explored in my  'The Problem of Other Attitudes'. According to this solution, moral attitudes are distinguished by their functional properties in a restricted range of contexts, and by the the resemblance of their ingredients in other contexts.",
+      "title": "The unity of moral attitudes",
+      "subtitle": "Canadian Philosophy Review 2018",
+      "description": "This paper suggests that moral attitudes are distinguished from other attitudes by their functional properties in a restricted range of contexts and by the the resemblance of their ingredients in other contexts. This proposal provides a novel solution to the Frege-Geach problem.",
       "image": "",
       "isHidden": false,
       "tags": [
@@ -99,7 +103,8 @@
     },
     {
       "title": "Neural Network Project",
-      "description": "A JavaScript tool for building neural networks. The networks can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
+      "description": "A JavaScript tool for building neural networks. The networks can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils. \n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
+      "notes": "Networks are drawn on an html canvas that accommodates zooming and scrolling.",
       "image": "/static/assets/images/nnp.png",
       "isHidden": false,
       "tags": [
@@ -133,7 +138,8 @@
     },
     {
       "title": "Piper",
-      "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\nFinal JavaScript project at App Academy. \n\n\n\n\n\n[Live](http://www.derekshiller.com/piper/piper.php)  [Github](https://github.com/dcshiller/piper)",
+      "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\n [Live](http://www.derekshiller.com/piper/piper.php)  [Github](https://github.com/dcshiller/piper)",
+      "notes": "Final JavaScript project at App Academy. \n\n\n\n\n\n",
       "image": "/static/assets/images/Piper.png",
       "isHidden": false,
       "tags": [
@@ -147,7 +153,6 @@
       "image": "/static/assets/images/TuringMachineSimulator.png",
       "isHidden": false,
       "tags": [
-        "games/sims",
         "programming"
       ]
     },
@@ -161,8 +166,9 @@
       ]
     },
     {
-      "title": "In Defense of Artificial Replacement",
-      "description": "Final version: [Bioethics 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/bioe.12340)\n\nIf it is within our power to provide a significantly better world for future generations at a comparatively small cost to ourselves, we have a strong moral reason to do so. One way of providing a significantly better world may involve replacing our species with something better. It is plausible that in the not-too-distant future, we will be able to create artificially intelligent creatures with whatever physical and psychological traits we choose. Granted this assumption, it is argued that we should engineer our extinction so that our planet's resources can be devoted to making artificial creatures with better lives.",
+      "title": "In defense of artificial replacement",
+      "subtitle": "[Bioethics 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/bioe.12340)",
+      "description": "This paper reflects on the significance of Savulescu's principle of procreative beneficence for the long-term future of the human species.",
       "image": "",
       "isHidden": false,
       "tags": [
@@ -174,8 +180,9 @@
       "file": "/assets/shiller.indefenseofartificialreplacement.pdf"
     },
     {
-      "title": "Hidden Qualia",
-      "description": "Final version: [Review of Philosophy and Psychology 2017](https://link.springer.com/article/10.1007/s13164-015-0297-5)\n\nIn this paper, I propose that those who reject higher-order theories of consciousness should not rule out the possibility of having conscious experiences that they cannot introspect.",
+      "title": "Hidden qualia",
+      "subtitle": "[Review of Philosophy and Psychology 2017](https://link.springer.com/article/10.1007/s13164-015-0297-5)",
+      "description": "In this paper, I propose that those who reject higher-order theories of consciousness should not rule out the possibility of having conscious experiences that they cannot introspect.",
       "image": "",
       "isHidden": false,
       "tags": [
@@ -186,8 +193,9 @@
       "file": "/assets/derekshiller.hiddenqualia.pdf"
     },
     {
-      "title": "The Problem of Other Attitudes",
-      "description": "Final version: American Philosophical Quarterly 2017\n\nThis paper presents a related problem concerning how noncognitivists might extend their accounts of moral judgments to other kinds of moral attitudes, such as moral hopes and moral intuitions. After presenting the problem, several contemporary theories with some initial promise for solving it are examined and found to be insufficient.",
+      "title": "The problem of other attitudes",
+      "subtitle": "American Philosophical Quarterly 2017",
+      "description": "This paper discusses how noncognitivists might extend their accounts of moral judgments to other kinds of moral attitudes, such as moral hopes and moral intuitions.",
       "image": "",
       "isHidden": false,
       "tags": [
@@ -200,7 +208,8 @@
     },
     {
       "title": "A Primitive Solution to the Negation Problem",
-      "description": "Final version: [Ethical Theory and Moral Practice 2016](https://link.springer.com/article/10.1007/s10677-015-9670-9)\n\nA response to Unwin and Schroeder's Negation Problem. I make the case that metaethical expressivists should be unbothered by a large number of brute norms, and hence that they should be free to postulate their way out of the negation problem.",
+      "subtitle": "[Ethical Theory and Moral Practice 2016](https://link.springer.com/article/10.1007/s10677-015-9670-9)",
+      "description": "This paper suggests that metaethical expressivists should be unbothered by a large number of brute norms and hence that they should be free to postulate their way out of Unwin's negation problem.",
       "image": "",
       "isHidden": false,
       "tags": [

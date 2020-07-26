@@ -23,5 +23,8 @@ ProjectStore.prototype.filter = function(tags) {
 ProjectStore.prototype.papers = function() {
   return this.all.filter(proj => proj.tags.indexOf('papers') !== -1)
 }
+ProjectStore.prototype.games = function() {
+  return this.all.filter(proj => proj.tags.indexOf('games/sims') !== -1)
+}
 const instance  = new ProjectStore;
 export default instance;

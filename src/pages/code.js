@@ -19,8 +19,8 @@ class IndexPage extends React.Component {
         Link.home-button(to="/")
           FontAwesomeIcon.CV(icon=${faArrowLeft})
         Section
-          h3.center Articles
-          ${this.renderPapers()}
+          h3.center Coding Projects
+          ${this.renderProjects()}
     `}
 
         // Section
@@ -39,7 +39,6 @@ class IndexPage extends React.Component {
             // transitionEnterTimeout=${500}
             // transitionLeaveTimeout=${500}
           // )
-            // ${this.renderProjects()}
     renderCheckBoxes() {
       const selectables = ProjectStore.getTags();
       return pug`
@@ -60,7 +59,7 @@ class IndexPage extends React.Component {
       `;
     }
     renderProjects() {
-      return ProjectStore.filter(this.state.selectedFields).filter(p => !p.isHidden).map(project => (
+      return ProjectStore.games().filter(p => !p.isHidden).map(project => (
         pug`
           ProjectCard(
             image=${project.image},
@@ -82,7 +81,6 @@ class IndexPage extends React.Component {
             key=${project.title},
             file=${project.file},
             title=${project.title},
-            subtitle=${project.subtitle},
           )
         `
       ))
