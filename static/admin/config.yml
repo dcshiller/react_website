@@ -33,6 +33,8 @@ collections:
             fields:
               - label: Title
                 name: title
+              - label: Subtitle
+                name: subtitle
               - label: Description
                 name: description
                 widget: markdown
@@ -47,3 +49,6 @@ collections:
                 widget: file
               - label: isHidden
                 widget: boolean
+              - label: Notes
+                name: notes
+                
