@@ -8,27 +8,24 @@
       "tags": [
         "philosophy",
         "papers"
-      ],
-      "isHidden": false
+      ]
     },
     {
       "title": "Race to A.I.",
       "description": "A game about A. I. safety. You play as a start up trying to be the first to build a strong A. I. system.\n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
-      "notes": "This game was written as an experiment in functional programming (elm) for the [Philosophy Game Jam #2](https://itch.io/jam/philgamejam-2).",
       "image": "/assets/racetoai.png",
-      "isHidden": false,
       "tags": [
         "programming",
         "a. i.",
         "ethics",
         "games/sims"
-      ]
+      ],
+      "notes": "This game was written as an experiment in functional programming (elm) for the [Philosophy Game Jam #2](https://itch.io/jam/philgamejam-2)."
     },
     {
       "title": "Real Safe Cars",
       "description": "A website for displaying statistically sophisticated car safety ratings. The ratings were produced by Ben Shiller and Bhoomija Ranjan and combine real-world data with the safety ratings produced by other agencies. The site is written in React.\n\n[Live](https://realsafecars.com)",
       "image": "/assets/screenshot-from-2019-09-22-17-06-41.png",
-      "isHidden": false,
       "tags": [
         "data",
         "programming"
@@ -37,21 +34,19 @@
     {
       "title": "Happy Mice",
       "description": "A game about trying to make mice happy. \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
-      "notes": "The game was written in React and created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam).",
       "image": "/assets/happy_mice.png",
-      "isHidden": false,
       "tags": [
         "philosophy",
         "ethics",
         "games/sims",
         "programming"
-      ]
+      ],
+      "notes": "The game was written in React and created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam)."
     },
     {
       "title": "Interactionism for the discerning mind?",
       "subtitle": "[Philosophical Studies 2020](https://link.springer.com/article/10.1007/s11098-018-1213-5)",
       "description": "This paper argues that interactionists face difficulties making sense of how minds could influence the right neurons in a brain to produce the range of behaviors of which we are capable.",
-      "isHidden": false,
       "tags": [
         "philosophy",
         "mind",
@@ -61,7 +56,6 @@
     {
       "title": "HTML Dom Element Data",
       "description": "A collecton of style data drawn from all dom elements on pages I have browsed using a chrome extension and getComputedStyles(). In CSV format.\n\nAvailable [here](https://s3.us-east-2.amazonaws.com/dcs.bucket/dom_data.csv).",
-      "isHidden": true,
       "tags": [
         "data"
       ]
@@ -69,7 +63,6 @@
     {
       "title": "JSON tractatus",
       "description": "A copy of Wittgenstein's Tractatus Logico-Philosophicus, translated into English, in JSON format.",
-      "isHidden": true,
       "tags": [
         "philosophy",
         "data"
@@ -80,7 +73,6 @@
       "title": "Argur",
       "description": "Journal submission management website written in Ruby on Rails. Users can record submissions to journals and upload files associated with those submissions.\n\n[Live](http://argur.derekshiller.com), [Github](https://www.github.com/dcshiller/submission_organizer)",
       "image": "/assets/screenshot-from-2018-10-11-17-12-51.png",
-      "isHidden": true,
       "tags": [
         "philosophy",
         "programming",
@@ -92,7 +84,6 @@
       "subtitle": "Canadian Philosophy Review 2018",
       "description": "This paper suggests that moral attitudes are distinguished from other attitudes by their functional properties in a restricted range of contexts and by the the resemblance of their ingredients in other contexts. This proposal provides a novel solution to the Frege-Geach problem.",
       "image": "",
-      "isHidden": false,
       "tags": [
         "philosophy",
         "metaethics",
@@ -104,21 +95,19 @@
     {
       "title": "Neural Network Project",
       "description": "A JavaScript tool for building neural networks. The networks can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils. \n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
-      "notes": "Networks are drawn on an html canvas that accommodates zooming and scrolling.",
       "image": "/static/assets/images/nnp.png",
-      "isHidden": false,
       "tags": [
         "games/sims",
         "programming",
         "mind",
         "a. i."
-      ]
+      ],
+      "notes": "Networks are drawn on an html canvas that accommodates zooming and scrolling."
     },
     {
       "title": "Philosophy Data Project",
       "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails. \n\nCurrently down.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
       "image": "/static/assets/images/pdp.png",
-      "isHidden": true,
       "tags": [
         "philosophy",
         "academia",
@@ -129,7 +118,6 @@
       "title": "Where Do They Publish?",
       "description": "A tool written as an experiment with Go. This program queries for articles by author and compiles them, listing where the given authors publish. The data is very incomplete.\n\n[live](http://wheredotheypublish.derekshiller.com)",
       "image": "/static/assets/images/WDTP.png",
-      "isHidden": true,
       "tags": [
         "philosophy",
         "academia",
@@ -139,19 +127,17 @@
     {
       "title": "Piper",
       "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\n [Live](http://www.derekshiller.com/piper/piper.php)  [Github](https://github.com/dcshiller/piper)",
-      "notes": "Final JavaScript project at App Academy. \n\n\n\n\n\n",
       "image": "/static/assets/images/Piper.png",
-      "isHidden": false,
       "tags": [
         "games/sims",
         "programming"
-      ]
+      ],
+      "notes": "Final JavaScript project at App Academy. \n\n\n\n\n\n"
     },
     {
       "title": "Turing Machine Simulator",
       "description": "Written in ruby, this program allows the user to create and run Turing machine programs from the terminal. This little program can solve any computable problem! \n\nThis was developed as an experiment for what I could do in a terminal. \n\n[Github](http://www.github.com/dshiller/turingmachine)",
       "image": "/static/assets/images/TuringMachineSimulator.png",
-      "isHidden": false,
       "tags": [
         "programming"
       ]
@@ -160,7 +146,6 @@
       "title": "ForMu",
       "description": "React + Rails project for making and sharing forms. Modeled on WuFoo.\n\n\n\nFinal rails project at App Academy. \n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
       "image": "/static/assets/images/ForMu.png",
-      "isHidden": false,
       "tags": [
         "programming"
       ]
@@ -170,7 +155,6 @@
       "subtitle": "[Bioethics 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/bioe.12340)",
       "description": "This paper reflects on the significance of Savulescu's principle of procreative beneficence for the long-term future of the human species.",
       "image": "",
-      "isHidden": false,
       "tags": [
         "philosophy",
         "ethics",
@@ -184,7 +168,6 @@
       "subtitle": "[Review of Philosophy and Psychology 2017](https://link.springer.com/article/10.1007/s13164-015-0297-5)",
       "description": "In this paper, I propose that those who reject higher-order theories of consciousness should not rule out the possibility of having conscious experiences that they cannot introspect.",
       "image": "",
-      "isHidden": false,
       "tags": [
         "philosophy",
         "mind",
@@ -197,7 +180,6 @@
       "subtitle": "American Philosophical Quarterly 2017",
       "description": "This paper discusses how noncognitivists might extend their accounts of moral judgments to other kinds of moral attitudes, such as moral hopes and moral intuitions.",
       "image": "",
-      "isHidden": false,
       "tags": [
         "philosophy",
         "metaethics",
@@ -211,13 +193,20 @@
       "subtitle": "[Ethical Theory and Moral Practice 2016](https://link.springer.com/article/10.1007/s10677-015-9670-9)",
       "description": "This paper suggests that metaethical expressivists should be unbothered by a large number of brute norms and hence that they should be free to postulate their way out of Unwin's negation problem.",
       "image": "",
-      "isHidden": false,
       "tags": [
         "philosophy",
         "metaethics",
         "papers"
       ],
       "file": "/assets/derekshiller.aprimitivesolutiontothenegationproblem.pdf"
+    },
+    {
+      "title": "Engage with animal welfare in conservation (with Nitin Sekar)",
+      "subtitle": "[Science](https://science.sciencemag.org/content/369/6504/629)",
+      "description": "We aregue that conservatinist organizations should make institutional changes to better promote the welfare of individual animals.",
+      "tags": [
+        "papers"
+      ]
     }
   ]
 }
