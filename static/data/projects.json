@@ -2,20 +2,20 @@
   "title": "Projects",
   "projects": [
     {
-      "title": "Engage with animal welfare in conservation (with Nitin Sekar)",
-      "subtitle": "[Science 2020](https://science.sciencemag.org/content/369/6504/629)",
-      "description": "We aregue that conservatinist organizations should make institutional changes to better promote the welfare of individual animals.",
-      "tags": [
-        "ethics",
-        "papers"
-      ]
-    },
-    {
       "title": "Chance and the dissipation of our acts effects",
       "subtitle": "Forthcoming in the Australasian Journal of Philosophy",
       "description": "This paper discusses the sensitivity of the shape of history to routine actions. It argues that given the possibility of non-deterministic effects, most actions do not have the power to radically alter the shape of the future.",
       "tags": [
         "philosophy",
+        "papers"
+      ]
+    },
+    {
+      "title": "Engage with animal welfare in conservation (with Nitin Sekar)",
+      "subtitle": "[Science 2020](https://science.sciencemag.org/content/369/6504/629)",
+      "description": "We aregue that conservatinist organizations should make institutional changes to better promote the welfare of individual animals.",
+      "tags": [
+        "ethics",
         "papers"
       ]
     },
