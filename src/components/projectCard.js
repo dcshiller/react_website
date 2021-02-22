@@ -9,9 +9,10 @@ const ProjectCard = ({image, file, title, description}) => {
     .project-card.animated
       h3.project-card__title= title
       .project-card__info
+        .project-card__text
+          ReactMarkdown(source=${description})
         if image && image !== ""
           img.project-card__image(src=${image})
-        ReactMarkdown(source=${description})
   `
 };
 
