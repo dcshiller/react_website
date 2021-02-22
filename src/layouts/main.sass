@@ -19,6 +19,13 @@ a
     text-decoration: underline
     color: darkred
 
+h2
+  font-size: 1.8em;
+
+p
+  font-size: 1.6em;
+  line-height: 1.2em;
+
 =dark
   color: $primary-color
   -webkit-text-stroke: 1px rgba(0,0,0,.4)
@@ -78,7 +85,7 @@ nav
   width: 100%
   display: flex
   &:first-of-type:last-of-type
-    min-height: 100vh
+    min-height: calc(100vh - 100px)
   @media (min-width: $laptop)
     padding: $large-padding
     padding-left: 100px
@@ -89,7 +96,7 @@ nav
 
 .section-content
   width: 80%
-  max-width: 800px
+  max-width: 70em
 
 .content
   position: relative
@@ -168,7 +175,7 @@ h1
 
   &__content
     flex-grow: 1
-    max-width: 800px
+    max-width: 70em
 
   &__image
     height: 50px
@@ -191,7 +198,7 @@ h1
   &__title
     text-align: left
     margin-bottom: .5em
-    font-size: 1em
+    font-size: 1.6rem
     font-weight: 500
   &__subtitle
     margin-bottom: 0

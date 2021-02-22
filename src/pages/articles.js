@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
         Link.home-button(to="/")
           FontAwesomeIcon.CV(icon=${faArrowLeft})
         Section
-          h3.center Articles
+          h2.center Articles
           ${this.renderPapers()}
     `}
 

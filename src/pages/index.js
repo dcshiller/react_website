@@ -19,8 +19,9 @@ class IndexPage extends React.Component {
           p
             | Professionally, I'm a web developer for 
             a(href="https://thehumaneleague.org") The Humane League
-            | , an international farm animal welfare organization that campaigns for better treatment of the most intensively-farmed animals. 
-            | In my previous life, I was an academic philosopher who specialized in metaethics and consciousness. 
+            | , an organization that campaigns for better treatment of the most intensively-farmed animals. 
+            | Previously, I was an academic philosopher who specialized in metaethics and consciousness. 
+            | I live in New York City with my wife, Megan, our dog and our rats.
           p
             | In my free time, I still like to think and write about moral issues and other more speculative or esoteric topics. 
             | I also like to make simple games. 
@@ -29,29 +30,10 @@ class IndexPage extends React.Component {
             |  and 
             Link(to='/code') coding projects
             | .
-            | I live in New York City with my wife, Megan, our dog and our rats.
 
           br
           br
     `}
-
-        // Section
-          // h1 Projects
-          // .row
-            // ${this.renderCheckBoxes()}
-          // br
-          // br
-          // ReactCSSTransitionGroup(
-            // transitionName=${ {
-              // enter: 'bounce',
-              // enterActive: 'fadeIn',
-              // leave: 'fadeOut',
-              // leaveActive: 'leaveActive',
-            // } }
-            // transitionEnterTimeout=${500}
-            // transitionLeaveTimeout=${500}
-          // )
-            // ${this.renderProjects()}
     renderCheckBoxes() {
       const selectables = ProjectStore.getTags();
       return pug`

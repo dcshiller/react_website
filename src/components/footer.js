@@ -6,6 +6,7 @@ import files from '../../public/data/files.json';
 
 class Footer extends React.Component {
   render(){
+    if (typeof window === undefined) return null;
     return pug`
       .footer
         .icon-row
