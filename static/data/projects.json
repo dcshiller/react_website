@@ -4,17 +4,15 @@
     {
       "title": "Gitnav",
       "subtitle": "Program for navigating git branches",
-      "description": "A simple program for navigating git branches, written in Ruby. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
-      "image": "/assets/screenshot-from-2021-11-22-17-45-39.png",
+      "description": "A simple cli program for navigating git branches, written in Ruby. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
       "tags": [
-        "philosophy",
-        "papers",
+        "programming",
         "games/sims"
       ]
     },
     {
       "title": "Chance and the dissipation of our acts effects",
-      "subtitle": "Australasian Journal of Philosophy 2021",
+      "subtitle": "Forthcoming in the Australasian Journal of Philosophy",
       "description": "This paper discusses the sensitivity of the shape of history to routine actions. It argues that given the possibility of non-deterministic effects, most actions do not have the power to radically alter the shape of the future.",
       "tags": [
         "philosophy",
@@ -35,28 +33,32 @@
       "description": "A game about A. I. safety. You play as a start up trying to be the first to build a strong A. I. system.\n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
       "image": "/assets/racetoai.png",
       "tags": [
-        "data",
         "programming",
+        "a. i.",
+        "ethics",
         "games/sims"
       ],
       "notes": "This game was written as an experiment in functional programming (elm) for the [Philosophy Game Jam #2](https://itch.io/jam/philgamejam-2)."
     },
     {
       "title": "Real Safe Cars",
-      "description": "A site for displaying car safety data",
+      "description": "A website for displaying statistically sophisticated car safety ratings. The ratings were produced by Ben Shiller and Bhoomija Ranjan and combine real-world data with the safety ratings produced by other agencies. The site is written in React.\n\n[Live](https://realsafecars.com)",
       "image": "/assets/screenshot-from-2019-09-22-17-06-41.png",
       "tags": [
+        "data",
         "programming",
         "games/sims"
       ]
     },
     {
       "title": "Happy Mice",
-      "description": "A game about making mice happy.",
+      "description": "A game about trying to make mice happy. \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
       "image": "/assets/happy_mice.png",
       "tags": [
-        "programming",
-        "games/sims"
+        "philosophy",
+        "ethics",
+        "games/sims",
+        "programming"
       ],
       "notes": "The game was written in React and created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam)."
     },
@@ -146,8 +148,8 @@
       "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\n [Live](http://www.derekshiller.com/piper/piper.php)  [Github](https://github.com/dcshiller/piper)",
       "image": "/static/assets/images/Piper.png",
       "tags": [
-        "programming",
-        "games/sims"
+        "games/sims",
+        "programming"
       ],
       "notes": "Final JavaScript project at App Academy. \n\n\n\n\n\n"
     },
