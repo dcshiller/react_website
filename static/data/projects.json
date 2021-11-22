@@ -5,6 +5,7 @@
       "title": "Gitnav",
       "subtitle": "Program for navigating git branches",
       "description": "A simple cli program for navigating git branches, written in Ruby. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
+      "image": "/assets/screenshot-from-2021-11-22-17-45-39.png",
       "tags": [
         "programming",
         "games/sims"
