@@ -208,6 +208,14 @@
         "papers"
       ],
       "file": "/assets/derekshiller.aprimitivesolutiontothenegationproblem.pdf"
+    },
+    {
+      "title": "Gitnav",
+      "subtitle": "Program for navigating git branches",
+      "description": "A simple program for navigating git branches, written in Ruby. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
+      "tags": [
+        "programming"
+      ]
     }
   ]
 }
