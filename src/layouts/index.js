@@ -13,6 +13,8 @@ const Layout = ({ children, data }) => (
       Helmet(title=${data.site.siteMetadata.title}
              meta=${[{ name: 'description', content: 'Derek Shiller\'s Website' },]})
         link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css")
+        if typeof window === 'undefined'
+          style .fa-arrow-left { display: none }
 
       Header
       .content
