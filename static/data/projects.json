@@ -4,7 +4,7 @@
     {
       "title": "Gitnav",
       "subtitle": "Program for navigating git branches",
-      "description": "A simple cli program for navigating git branches, written in Ruby. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
+      "description": "A simple cli wrapper for navigating git branches, written in Ruby. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
       "image": "/assets/screenshot-from-2021-11-22-17-45-39.png",
       "tags": [
         "programming",
@@ -14,7 +14,7 @@
     {
       "title": "Chance and the dissipation of our acts effects",
       "subtitle": "Forthcoming in the Australasian Journal of Philosophy",
-      "description": "This paper discusses the sensitivity of the shape of history to routine actions. It argues that given the possibility of non-deterministic effects, most actions do not have the power to radically alter the shape of the future.",
+      "description": "This paper discusses the extent of the effect that routine actions have on the future. It argues that given the possibility of non-deterministic effects, most actions do not have the power to radically alter the shape of the future.",
       "tags": [
         "philosophy",
         "papers"
