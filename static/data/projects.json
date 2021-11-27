@@ -4,7 +4,7 @@
     {
       "title": "Gitnav",
       "subtitle": "Program for navigating git branches",
-      "description": "A simple cli wrapper for navigating git branches, written in Ruby. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
+      "description": "A simple cli wrapper for navigating git branches. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
       "image": "/assets/screenshot-from-2021-11-22-17-45-39.png",
       "tags": [
         "programming",
@@ -43,7 +43,7 @@
     },
     {
       "title": "Real Safe Cars",
-      "description": "A website for displaying statistically sophisticated car safety ratings. The ratings were produced by Ben Shiller and Bhoomija Ranjan and combine real-world data with the safety ratings produced by other agencies. The site is written in React.\n\n[Live](https://realsafecars.com)",
+      "description": "A website for displaying statistically sophisticated car safety ratings. The ratings were produced by Ben Shiller and Bhoomija Ranjan and combine real-world data with the safety ratings produced by other agencies.\n\n[Live](https://realsafecars.com)",
       "image": "/assets/screenshot-from-2019-09-22-17-06-41.png",
       "tags": [
         "data",
