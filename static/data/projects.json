@@ -4,7 +4,7 @@
     {
       "title": "Gitnav",
       "subtitle": "Program for navigating git branches",
-      "description": "A simple cli wrapper for navigating git branches. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[github](https://github.com/dcshiller/gitnav)",
+      "description": "A simple cli wrapper for navigating git branches. Inspired by [nnn](https://github.com/jarun/nnn).\n\n[Github](https://github.com/dcshiller/gitnav)",
       "image": "/assets/screenshot-from-2021-11-22-17-45-39.png",
       "tags": [
         "programming",
