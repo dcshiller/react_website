@@ -222,7 +222,8 @@
     },
     {
       "title": "Probability of Parity",
-      "file": "/assets/probability_of_parity.pdf"
+      "file": "/assets/probability_of_parity.pdf",
+      "undefined": true
     }
   ]
 }
